@@ -35,7 +35,7 @@ cd alacritty
 touch alacritty.toml
 
 echo "Write config"
-echo -e "[window]\ndecorations = "None"\nstartup_mode = "Fullscreen"\n[font]\nsize\nnormal.family = "JetBrainsMono Nerd Font" = 18" >>alacritty.toml
+echo -e "[window]\ndecorations = "None"\nstartup_mode = "Fullscreen"\n[font]\nsize = 18\nnormal.family = "JetBrainsMono Nerd Font"" >>alacritty.toml
 #lazyvim stuff
 
 echo "Install fzf"
